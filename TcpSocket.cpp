@@ -2,7 +2,7 @@
 
 #define PORT 8888
 /// <summary>
-/// 
+/// inti network
 /// </summary>
 /// <returns></returns>
 bool init_network()

@@ -6,6 +6,8 @@
 //#include <iostream>
 //using namespace std;
 
+
+// this function point
 #define ErrMsg(msg) printf("[line:%d] %s failed code %d",__LINE__, msg, WSAGetLastError())
 
 #pragma comment(lib,"ws2_32.lib")

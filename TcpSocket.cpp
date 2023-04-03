@@ -29,6 +29,8 @@ bool close_network()
 	return true;
 }
 
+/// @brief create server socket 
+/// @return 
 SOCKET create_server_socket()
 {
 	// type:SOCK_STREAM / protocol:IPPROTO_TCP
@@ -56,6 +58,8 @@ SOCKET create_server_socket()
 	return fd;
 }
 
+/// @brief create client socket
+/// @return 
 SOCKET create_client_socket()
 {
 	// type:SOCK_STREAM / protocol:IPPROTO_TCP
